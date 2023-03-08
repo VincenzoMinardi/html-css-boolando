@@ -67,9 +67,9 @@ h3{
     position: relative;
 }
 
-/* .mini-container:hover .image2{
+ .mini-container:hover .image2{
   z-index: 2;
-} */
+} *
 
 
    
@@ -109,10 +109,7 @@ main{
 
 
 .color-red {
-    display: inline;
-    height: 10px;
-    width: 20px;
-    background-color: red;
+   color: red;
     
     
 }
@@ -122,14 +119,12 @@ main{
    display: inline;
    height: 10px;
    width: 20px;
-   
-  
 } 
-p{
-    position: relative;
-    bottom: 10px;
-    font-size: 10px;
+
+.price{
+    color: red;
 }
+
 
 
     
