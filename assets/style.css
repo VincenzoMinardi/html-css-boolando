@@ -102,12 +102,6 @@ main{
     z-index: 3;
 }
 
-.discount{
-   
-}
-
-
-
 .color-red {
    color: red;
     
@@ -123,12 +117,48 @@ main{
 
 .price{
     color: red;
+    display: inline;
 }
 
+.price-full{
+    text-decoration: line-through;
+    display: inline;
+}
 
+.container-image{
+    position:relative
+}
 
-    
-    
+.discount{
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: 10;
+}
+
+.discount2{
+    height: 20px;
+    width: 90px;
+    background-color: green;
+    position: absolute;
+    left: 45px;
+    bottom: 100px;
+    z-index: 10;
+}
+
+.tag-discount{
+    height: 20px;
+    width: 90px;
+    background-color: green;
+    position: absolute;
+    left: 2px;
+    bottom: 100px;
+    z-index: 10;
+}
+ 
 
 
    
