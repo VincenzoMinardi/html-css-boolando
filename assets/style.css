@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1300px;
     padding-inline: 10px;
     margin-inline: auto;
 }
@@ -17,10 +17,6 @@ header{
     height: 80px;
 }
 
-nav{
-  
-    
-}
 
 h3{
     color: white;
@@ -38,6 +34,7 @@ h3{
 .logo{
     display: flex;
     justify-content: center;
+    
 }
 
 .img{
@@ -52,6 +49,35 @@ h3{
     bottom: 10px;
     padding-left: 10px;
 }
+.image{
+    height: 500px;
+    position: relative;
+}
+
+
+   
+
+
+main{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.heart{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+   
+    
+}
+
+
+   
+    
 
    
 
