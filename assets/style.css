@@ -1,168 +1,134 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    max-width: 1300px;
-    padding-inline: 10px;
-    margin-inline: auto;
+.container {
+  max-width: 1300px;
+  padding-inline: 10px;
+  margin-inline: auto;
 }
 
-
-header{
-    
-    background-color: rgb(255, 105, 0);
-    height: 80px;
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-
-h3{
-    color: white;
-    padding-left: 5px;
+header {
+  background-color: rgb(255, 105, 0);
+  height: 80px;
 }
 
-.sex{
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    top: 25px;
-    padding-left: 10px;
+h3 {
+  color: white;
+  padding-left: 5px;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    
+.img {
+  height: 30px;
 }
 
-.img{
-   height: 30px;
-   
-}
-
-.icon{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 10px;
-    padding-left: 10px;
-}
 .image {
-    height: 500px;
-    z-index: 1;
-    position: relative;
+  height: 500px;
+  z-index: 1;
+  position: relative;
 }
-
 
 .image2 {
-    position: absolute;
-    height: 500px;
-    right: 0;
-    z-index: 0; 
+  position: absolute;
+  height: 500px;
+  right: 0;
+  z-index: 0;
 }
 
-.mini-container{
-    position: relative;
+.mini-container {
+  position: relative;
 }
 
- .mini-container:hover .image2{
+.mini-container:hover .image2 {
   z-index: 2;
-} *
-
-
-   
-
-
-main{
-    display: flex;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
 }
 
-.container-heart{
-    height: 30px;
-     width: 30px;
-    background-color: white;
-    position: absolute;
-    right: 0;
-    top:10px;
-    z-index: 3;
+main {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
+.container-heart {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  z-index: 3;
+}
 
-.heart{
-    height: 1.5rem;
-    position: relative;
-    top: 5px;
-    left: 3px;
-    z-index: 3;
+.heart {
+  height: 1.5rem;
+  position: relative;
+  top: 5px;
+  left: 3px;
+  z-index: 3;
 }
 
 .color-red {
-   color: red;
-    
-    
+  color: red;
 }
 
-  .color-green{
-   background-color: green;
-   display: inline;
-   height: 10px;
-   width: 20px;
-} 
-
-.price{
-    color: red;
-    display: inline;
+.color-green {
+  background-color: green;
+  display: inline;
+  height: 10px;
+  width: 20px;
 }
 
-.price-full{
-    text-decoration: line-through;
-    display: inline;
+.price {
+  color: red;
+  display: inline;
 }
 
-.container-image{
-    position:relative
+.price-full {
+  text-decoration: line-through;
+  display: inline;
 }
 
-.discount{
-    height: 20px;
-    width: 40px;
-    background-color: red;
-    position: absolute;
-    left: 0;
-    bottom: 100px;
-    z-index: 10;
+.container-image {
+  position: relative;
 }
 
-.discount2{
-    height: 20px;
-    width: 90px;
-    background-color: green;
-    position: absolute;
-    left: 45px;
-    bottom: 100px;
-    z-index: 10;
+.discount {
+  height: 20px;
+  width: 40px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  z-index: 10;
 }
 
-.tag-discount{
-    height: 20px;
-    width: 90px;
-    background-color: green;
-    position: absolute;
-    left: 2px;
-    bottom: 100px;
-    z-index: 10;
+.discount2 {
+  height: 20px;
+  width: 90px;
+  background-color: green;
+  position: absolute;
+  left: 45px;
+  bottom: 100px;
+  z-index: 10;
 }
- 
 
-
-   
-    
-
-   
-
+.tag-discount {
+  height: 20px;
+  width: 90px;
+  background-color: green;
+  position: absolute;
+  left: 2px;
+  bottom: 100px;
+  z-index: 10;
+}
